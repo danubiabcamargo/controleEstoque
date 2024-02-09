@@ -5,12 +5,11 @@ Constructor: Inicializa os atributos do produto com os valores passados como par
 calcularValorTotal(): Calcula e retorna o valor total do produto multiplicando a quantidade disponível pelo preço unitário.
 
 Classe ProdutoPerecivel (Herda de Produto) extends:
-Descrição: Representa um produto perecível em um estoque, herdando características da classe Produto e adicionando a funcionalidade de verificar a validade.
-Métodos:
 Constructor: Chama o construtor da classe pai (Produto) e adiciona o atributo data de validade.
 verificarValidade(): Verifica se o produto perecível está dentro da data de validade, retornando true se estiver válido e false caso contrário.
 
-Classe Estoque:
+
+***Classe Estoque:
 Descrição: Representa o estoque de produtos, contendo funcionalidades para adicionar, remover, verificar disponibilidade e calcular o valor total do estoque.
 Métodos:
 Constructor: Inicializa o estoque com uma lista vazia de produtos.
